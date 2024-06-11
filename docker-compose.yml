@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile
     image: compose-backend
     ports:
-      - 4000:3000
+      - "3000:3000"
     env_file:
       - .env
     depends_on:
@@ -21,7 +21,7 @@ services:
       dockerfile: Dockerfile
     image: compose-frontend
     ports:
-      - 5001:80
+      - "80:80"
     env_file:
       - .env
     depends_on:
@@ -43,7 +43,7 @@ services:
     container_name: kupipodariday-adminer
     image: adminer
     ports:
-      - 8081:8080
+      - "8081:8080"
     depends_on:
       - postgres
 
