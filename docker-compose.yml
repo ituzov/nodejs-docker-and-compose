@@ -28,11 +28,6 @@ services:
     image: postgres
     env_file:
       - .env
-  adminer:
-    container_name: kupipodariday-adminer
-    image: adminer
-    ports:
-      - 8081:8080
 
     networks:
       backend:
