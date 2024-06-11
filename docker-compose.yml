@@ -29,9 +29,5 @@ services:
     env_file:
       - .env
 
-    networks:
-      backend:
-      frontend:
-
 volumes:
   postgres_data:
