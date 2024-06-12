@@ -1,4 +1,4 @@
-export const URL = "api.ituzov.fun";
+export const URL = "https://api.ituzov.fun";
 
 export const MINIMUM_PASSWORD_LENGTH = 3;
 export const MINIMUM_USERNAME_LENGTH = 3;
