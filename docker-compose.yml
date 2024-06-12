@@ -18,7 +18,7 @@ services:
       dockerfile: Dockerfile
     image: compose-frontend
     ports:
-      - 5001:80
+      - 8081:80
     env_file:
       - .env
   postgres:
